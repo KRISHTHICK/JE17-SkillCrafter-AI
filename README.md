@@ -16,8 +16,10 @@ Feature	Description
 🧭 Learning Path Recommender	Suggests what to learn next based on goals
 📈 Skill Tracker (basic JSON)	Tracks skills covered and confidence level
 
+
+#RUN STEPS
 pip install -r requirements.txt
 streamlit run app.py
-# Start Ollama backend
+Start Ollama backend
 ollama serve
 ollama run tinyllama
